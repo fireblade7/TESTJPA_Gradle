@@ -39,7 +39,7 @@ class TestJpaRestControllerTest {
 		mockMvc = MockMvcBuilders.standaloneSetup(testJpaRestController).build();
 	}
 
-	@DisplayName("»∏ø¯ ¡∂»∏")
+	@DisplayName("ÌöåÏõê Ï°∞Ìöå")
 	@Test
 	void signUpSuccess() throws Exception {
 		// given
@@ -58,7 +58,7 @@ class TestJpaRestControllerTest {
 		final MvcResult mvcResult = resultActions.andExpect(status().isOk()).andReturn();
 
 
-		//√‚√≥: https://mangkyu.tistory.com/145 [MangKyu's Diary]
+		//https://mangkyu.tistory.com/145 [MangKyu's Diary]
 	}
 	/*
 	 * private SignUpDTO signUpDTO() { final SignUpDTO signUpDTO = new SignUpDTO();
